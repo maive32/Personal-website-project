@@ -18,7 +18,7 @@ nav a {
     display: flex;
 }
 
-ul li ul {
+nav ul li ul {
     visibility: hidden;
     position: absolute;
     display: none;
@@ -34,7 +34,7 @@ ul li ul:focus {
     padding: 10px 60px 60px 15px;
 }
 
-li:hover, li:focus-within {
+nav li:hover, nav li:focus-within {
     background-color: #5c382e;
 }
 
@@ -72,3 +72,28 @@ ul li ul li {
     background-color: #7a98f1;
 }
 
+.group {
+    display: flex; 
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.margin {
+    margin-right: 300px
+}
+
+hr.solid {
+    border-top: 3px solid black;
+}
+
+.tab1 {
+    margin-left: 4em;
+}
+
+.tab2 {
+    margin-left: 6em;
+}
+
+.tab3 {
+    margin-left: 8em;
+}
