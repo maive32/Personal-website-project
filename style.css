@@ -1,0 +1,53 @@
+/* css */ 
+nav ul {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    background-color: #db522c;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c382e;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+}
+
+ul li ul {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+}
+
+ul li:hover > ul, 
+ul li:focus-within > ul, 
+ul li ul:hover, 
+ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    padding: 10px 60px 60px 15px;
+}
+
+li:hover, li:focus-within {
+    background-color: #5c382e;
+}
+
+body {
+    margin: 0;
+}
+
+ul li ul li {
+    width: 100%;
+    padding: 5px;
+}
+
+.margin > ul li ul li {
+    padding: 0;
+}
+
