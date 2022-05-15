@@ -51,3 +51,24 @@ ul li ul li {
     padding: 0;
 }
 
+/* resume */ 
+
+.main-content {
+    display: block;
+}
+
+.wrapper {
+    max-width: 1200px;
+    max-height: 900px;
+    margin: 100px auto 100px auto;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+}
+
+.blue {
+    background-color: #7a98f1;
+}
+
