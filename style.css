@@ -51,6 +51,72 @@ ul li ul li {
     padding: 0;
 }
 
+/* index */ 
+.hero-image {
+    background-image: url(/img/pexels-rodolfo-clix-1036936.jpg);
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    text-align: center; 
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    background-color: white;
+    margin-left: 50px;
+    padding: 20px
+}
+
+.wrap {
+    height: 100vh;
+}
+
+.wrapping {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.wrapping p {
+    width: 300px;
+}
+.wrapping img {
+    max-width: 500px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.container {
+    padding: 2px 16px;
+    margin: 0;
+}
+
+.contact-wrap {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.Contact {
+    padding: 20px;
+    background-color: #7a98f1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-color: #7a98f1;
+}
+
+.Contact a {
+    text-decoration: none;
+    color: white;
+}
+
 /* resume */ 
 
 .main-content {
@@ -59,7 +125,6 @@ ul li ul li {
 
 .wrapper {
     max-width: 1200px;
-    max-height: 900px;
     margin: 100px auto 100px auto;
 }
 
@@ -74,8 +139,9 @@ ul li ul li {
 
 .group {
     display: flex; 
-    justify-content: space-between;
+    justify-content: row;
     margin: 30px 0;
+    flex-wrap: nowrap;
 }
 
 .margin {
@@ -96,4 +162,222 @@ hr.solid {
 
 .tab3 {
     margin-left: 8em;
+}
+
+.lor, .resume {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #db522c;
+}
+
+.resume {
+    margin-right: 780px;
+}
+
+/*  about me */ 
+
+.headerbox {
+    max-width: 35%; 
+    background-color: #5c382e;
+    color: #e18971;
+    text-align: center;
+    margin: 24px auto 32px;
+    padding: 5px;
+}
+
+.cat {
+    background-image: url(/img/pexels-ryutaro-tsukata-6249533.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.awards {
+    color: #7a98f1;
+}
+
+/* image carousle */ 
+.carousel-container {
+    align-items: center;
+    display: flex;
+    max-width: 150px; 
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease; 
+    border-radius: 0 3px 3px 0;
+    user-select:none;
+}
+
+.next {
+    right: 0; 
+    border-radius: 3px 0 0 3px;
+}
+
+/* contact */ 
+
+.contact-form {
+    background-color: #5c382e;
+}
+
+.side-content {
+    width: 50%;
+    background-color: #DCCECA;
+    height: 100vh;
+}
+
+.right-content {
+    width: 50%;
+    height: 100vh;
+}
+
+.whole-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.side-content section {
+    margin-left: 50px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: #5c382e;
+    margin-top: 20%;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: #5c382e;
+}
+
+/* portfolio */ 
+.head-portfolio {
+    max-width: 35%; 
+    margin: auto;
+    text-align: center;
+}
+
+.card-warp {
+    margin: auto;
+    max-width: 1000px;
+    height: 1000px;
+}
+
+.card-warp section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 200px; 
+    height: 500px; 
+    background: #c4c4c4;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.return {
+    margin-top: 50px;
+}
+
+.special {
+    margin: 50px auto;
+}
+
+.small-cards {
+    width: 400px;
+    height: 200px;
+    background-size: 400px;
+}
+
+.first {
+    background-image: url(img/Screenshot\ 2022-05-15\ 212303.jpg);
+}
+
+.tourism {
+    background-image: url(img/Screenshot\ 2022-05-15\ 212832.jpg);
+}
+
+.bouncy {
+    background-image: url(img/Screenshot\ 2022-05-15\ 213016.jpg);
+}
+
+.sc-wrap {
+    margin: auto;
+    max-width: 1280px;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+.sc-wrap section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sc-text {
+    text-align: center;
+    background-color: #7a98f1;
+}
+
+.special {
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    background-size: 400px;
+    background-image: url(img/Screenshot\ 2022-05-15\ 212455.jpg);
+}
+
+.sc-wrap section a {
+    text-decoration: none;
+    color: white;
+}
+
+.special a {
+    text-decoration: none;
+    color: white;
+}
+
+/*programming-s1*/
+.head-sample {
+    text-align: center;
+}
+
+.sample-wrap {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
 }
