@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat+Brush&family=Libre+Baskerville&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <nav class="flex nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a>
+                <ul class="dropdown">
+                    <li class="margin"><a href="programming.html">Programming</a></li>
+                    <li><a href="writing.html">Writing</a></li>
+                    <li><a href="art.html">Art</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="head-sample">
+    <h2>Interactive story</h2>
+    </div>
+    <div class="sample-wrap">
+    <p>The “Interactive story” is the biggest project I’ve had for this class. The goal of the project was to create a story and program that could store parts of my story in an object and save the possible choices in arrays that are part of that story object.</p>
+    <p>I’ll walk you through some of the code, the story object stores the content of the page including the text and choices. There are two arrays, the arrays that store the choices you picked (breadCrumbs) and the choices that can be picked (choices). The game can go from one choice to another through the function buildChoices(). If the breadCrumbs array length is more than 0 then choice[0] is the start and choice [1] is the destination.  It keeps track of the choices through currentChapter, the currentChapter is the last element in the array.</p>
+    <p>The story took awhile to write, and I based the story off a video game I like a lot called Omori.  Three endings had to go through the Hero’s journey which was difficult to do. I had more fun with the shorter and less serious endings.</p>
+    <p>I learned that communication and persistence is very important. I should have persisted when the project got difficult. At first I didn’t understand the code, but after looking at it closer it was actually simple in its logic. It was better to understand a function's purpose and how they interacted with each other than trying to understand it all at once. I should have communicated with my partner often, including outside of class. I hope to learn to be more persistent and improve my communication. </p>
+    </div>
+    <div class="wrap-sample">
+    <embed src="https://not-omori.netlify.app/">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -381,3 +381,39 @@ textarea {
     margin: auto;
     text-align: center;
 }
+
+embed {
+    height: 100%;
+    width: 100%;
+}
+
+.wrap-sample {
+    height: 100vh;
+    width: 1000px;
+    margin: auto;
+}
+
+.group2 section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group2 section img {
+    size: 389px;
+}
+
+.group2 section p {
+    margin: 0; 
+    width: 473px;
+    text-align: center;
+}
+
+.art-wrap {
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+}
+
+.art{
+    width: 100%;
+}

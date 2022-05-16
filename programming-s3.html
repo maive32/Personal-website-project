@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat+Brush&family=Libre+Baskerville&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <nav class="flex nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a>
+                <ul class="dropdown">
+                    <li class="margin"><a href="programming.html">Programming</a></li>
+                    <li><a href="writing.html">Writing</a></li>
+                    <li><a href="art.html">Art</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="head-sample">
+    <h2>Bouncy Balls</h2>
+    </div>
+    <div class="sample-wrap">
+    <p>The “BouncyBalls” project is a demonstration of how objects can be used in JavaScript. The program is to have multiple balls which would bounce off the edges of the screen. The balls will change color whenever they collide however they will not interrupt their motion.</p>
+    <p>“BouncyBalls” utilizes Canvas API, used to draw graphics via Javascript and the HTML &lt;canvas&gt; element. Here it is used to display an animation. The ball properties are stored in an object called Ball like the size and color. This is made to be referenced by Ball.prototype.draw. This function will draw the ball with the given properties and their values. Ball.prototype.update makes sure that the ball will not pass further than the canvas. The while (balls.length &lt; 25) function will generate balls with random sizes and colors until there are 25 of them. A ball created from that function will be pushed into the balls array. Lastly, requestAnimationFrame(loop) will repeatedly run the loop.</p>
+    <p>The challenge that came with it was just trying to piece together the code, and to visualize what I wanted to achieve. It’s easy to get lost if I don’t have a clear vision in my head of my goal. Doing so will make it easier to break the process down into small steps that are easy to accomplish.</p>
+    <p>I learned how to investigate, looking up certain functions or pieces of code I didn’t know helped me a lot. I had read through the document carefully in order to understand what I was supposed to do.</p>
+    </div>
+    <div class="wrap-sample">
+    <embed src="https://bouncy-ballsnow.netlify.app/">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
